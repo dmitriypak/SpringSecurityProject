@@ -8,6 +8,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import ru.icapps.projects.adminpanel.domain.User;
 import ru.icapps.projects.adminpanel.repository.UserRepository;
+import ru.icapps.projects.adminpanel.security.MyUserPrincipal;
 
 @Service
 public class MyUserDetailsService implements UserDetailsService{
